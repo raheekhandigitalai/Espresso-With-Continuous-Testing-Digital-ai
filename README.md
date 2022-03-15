@@ -19,7 +19,7 @@ Sample APKs can be downloaded here:
 To trigger Espresso Unit Tests, we need to rely on an API call:
 
 ```
-POST - POST /api/v1/test-run/execute-test-run-async
+POST - /api/v1/test-run/execute-test-run-async
 ```
 
 There are a number of parameters accepted, find a [full list of parameters here](https://docs.experitest.com/display/TE/Manage+Test+Run+with+the+API#ManageTestRunwiththeAPI-RunningAsyncEspresso/XCUITest).
