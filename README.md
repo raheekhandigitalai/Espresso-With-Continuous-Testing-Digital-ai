@@ -4,13 +4,15 @@ This repository will briefly go over how to trigger Espresso tests using a sampl
 
 Documentation Page References:
 
-[Preparing your App and Test .apk Files](https://docs.experitest.com/display/TE/Preparing+your+App+and+Test+.apk+Files)
-[Rest API for running Espresso tests](https://docs.experitest.com/display/TE/Manage+Test+Run+with+the+API#ManageTestRunwiththeAPI-RunningAsyncEspresso/XCUITest)
+- [Preparing your App and Test .apk Files](https://docs.experitest.com/display/TE/Preparing+your+App+and+Test+.apk+Files)
+
+- [Rest API for running Espresso tests](https://docs.experitest.com/display/TE/Manage+Test+Run+with+the+API#ManageTestRunwiththeAPI-RunningAsyncEspresso/XCUITest)
 
 Sample APKs can be downloaded here:
 
-[app-debug.apk](https://experibankespressoapp.s3.us-east-2.amazonaws.com/app-debug.apk)
-[app-debig-androidTest.apk](https://experibankespressoapp.s3.us-east-2.amazonaws.com/app-debug-androidTest.apk)
+- [app-debug.apk](https://experibankespressoapp.s3.us-east-2.amazonaws.com/app-debug.apk)
+
+- [app-debug-androidTest.apk](https://experibankespressoapp.s3.us-east-2.amazonaws.com/app-debug-androidTest.apk)
 
 ## Triggering Espresso Unit Tests
 
