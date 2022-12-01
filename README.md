@@ -8,6 +8,8 @@ Documentation Page References:
 
 - [Rest API for running Espresso tests](https://docs.experitest.com/display/TE/Manage+Test+Run+with+the+API#ManageTestRunwiththeAPI-RunningAsyncEspresso/XCUITest)
 
+- [Obtaining your Access Key to Trigger API Requests](https://docs.experitest.com/display/TE/Obtaining+Access+Key)
+
 Sample APKs can be downloaded here:
 
 - [app-debug.apk](https://experibankespressoapp.s3.us-east-2.amazonaws.com/app-debug.apk)
@@ -27,6 +29,17 @@ There are a number of parameters accepted, find a [full list of parameters here]
 Here is an example API Request done using Postman:
 
 ![postman_api_call](images/postman_api_call.png)
+
+Here is an example cURL command to trigger the API Request:
+
+```
+curl --location --request POST 'https://uscloud.experitest.com/api/v1/test-run/execute-test-run-async?deviceQueries=%40os%3D%27android%27' \
+--header 'Authorization: Bearer INSERT_ACCESS_KEY' \
+--form 'executionType="espresso"' \
+--form 'runningType="fastFeedback"' \
+--form 'app=@"/path/to/app-local-debug.apk"' \
+--form 'testApp=@"/path/to/app-local-debug-androidTest.apk"' \
+```
 
 ## Status of the API Run
 
